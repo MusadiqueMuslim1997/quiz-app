@@ -48,6 +48,51 @@ var quetionList = [
         d: "toPrecision()"
 
     },
+    {
+
+        que: "6. Which of the following function of String object splits a String object into an array of strings by separating the string into substrings?",
+        a: "slice()",
+        b: "split()",
+        c: "replace()",
+        d: "search()"
+
+    },
+    {
+
+        que: "7.Which of the following function of String object creates an HTML anchor that is used as a hypertext target?",
+        a: "anchor()",
+        b: "link()",
+        c: "blink()",
+        d: "big()"
+
+    },
+    {
+
+        que: "8.  Which of the following function of String object causes a string to be displayed as a superscript, as if it were in a <sup> tag?",
+        a: "sup()",
+        b: "small()",
+        c: "strike()",
+        d: "sub()"
+
+    },
+    {
+
+        que: "9. Which of the following function of Array object returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found?",
+        a: "indexOf()",
+        b: "join()",
+        c: "lastIndexOf()",
+        d: "map()"
+
+    },
+    {
+
+        que: "10. Which of the following function of Array object sorts the elements of an array?",
+        a: "toSource()",
+        b: "sort()",
+        c: "toString()",
+        d: "unshift()"
+
+    },
 
 
 
@@ -67,18 +112,19 @@ var index = 0;
 function load() {
     var data = quetionList[index]
     questionGenerate.innerHTML = `${data.que}`;
-    a_text.innerText = `${data.a}`
-    b_text.innerText = `${data.b}`
-    c_text.innerText = `${data.c}`
-    d_text.innerText = `${data.d}`
+    a_text.innerText = `${data.a}`;
+    b_text.innerText = `${data.b}`;
+    c_text.innerText = `${data.c}`;
+    d_text.innerText = `${data.d}`;
 
 
 }
 
 load()
 
-
+   
 function submit() {
     index++;
     load()
+
 }
