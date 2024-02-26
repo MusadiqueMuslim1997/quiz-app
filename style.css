@@ -66,3 +66,9 @@ button {
 button:active{
     background-color: darkgreen;
 }
+.opt:hover{
+    background-color: silver;
+}
+.box > h2{
+    font-size: 1.1rem;
+}
