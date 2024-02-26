@@ -14,7 +14,7 @@ var quetionList = [
 
         que: "2. CSS stand for?",
         a: "Hyper Mark Textup Language",
-        b: "Cascading style sheet",
+        b: "php",
         c: "php",
         d: "none"
 
@@ -56,10 +56,10 @@ var quetionList = [
 
 var questionGenerate = document.getElementById("questiongenerate");
 var a_text = document.getElementById("a_text");
-var a = document.getElementById("a");
-var b = document.getElementById("b");
-var c = document.getElementById("c");
-var d = document.getElementById("d");
+var a = document.getElementById("a_text");
+var b = document.getElementById("b_text");
+var c = document.getElementById("c_text");
+var d = document.getElementById("d_text");
 var index = 0;
 
 
@@ -67,7 +67,11 @@ var index = 0;
 function load() {
     var data = quetionList[index]
     questionGenerate.innerHTML = `${data.que}`;
-    
+    a_text.innerHTML = `${data.a}`
+    b_text.innerHTML = `${data.b}`
+    c_text.innerHTML = `${data.c}`
+    d_text.innerHTML = `${data.d}`
+
 
 }
 

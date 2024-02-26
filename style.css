@@ -37,8 +37,7 @@ body {
 }
 li{
     list-style: none;
-    display: flex;
-    flex-direction: column;
+ 
     line-height: 40px;
 }
 .btn {
