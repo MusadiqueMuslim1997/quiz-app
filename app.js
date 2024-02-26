@@ -2,9 +2,9 @@ var quetionList = [
 
     {
 
-        que: "1. Which of the following is correct about JavaScript?",
-        a: "The typeof is a unary operator that is placed before its single operand, which can be of any type.",
-        b: "Its value is a string indicating the data type of the operand",
+        que: "1. The external JavaScript file must contain the <script> tag.",
+        a: "True",
+        b: "False",
         c: "Both of the above",
         d: "None of the above"
 
@@ -111,7 +111,7 @@ var index = 0;
 
 function load() {
     var data = quetionList[index]
-    questionGenerate.innerHTML = `${data.que}`;
+    questionGenerate.innerText = `${data.que}`;
     a_text.innerText = `${data.a}`;
     b_text.innerText = `${data.b}`;
     c_text.innerText = `${data.c}`;
