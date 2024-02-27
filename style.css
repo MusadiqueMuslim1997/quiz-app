@@ -47,7 +47,7 @@ header {
     align-items: center;
     justify-content: center;
     object-fit: contain;
-    background-color: antiquewhite;
+
 }
 
 .pro-img>img {
@@ -182,7 +182,8 @@ label:hover {
         width: 330px;
 
     }
-    header{
+
+    header {
         padding: 20px;
     }
 }
