@@ -84,8 +84,10 @@ header {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 20px 0px;
 }
 
 .hi-1 {
@@ -95,13 +97,16 @@ header {
     font-size: 2rem;
     color: #63b3d8;
     font-family: sans-serif;
-    padding: 20px 5px;
+    padding: 5px;
 }
 
 .hi-2 {
     width: 100%;
     display: flex;
     align-items: center;
+    font-size: 1rem;
+    padding: 5px;
+    font-family: sans-serif;
 }
 
 .hi-img {
