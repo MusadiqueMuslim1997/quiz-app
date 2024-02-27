@@ -100,7 +100,7 @@ var quetionList = [
 
 
 var questionGenerate = document.getElementById("questiongenerate");
-var a_text = document.getElementById("a_text");
+
 var a = document.getElementById("a_text");
 var b = document.getElementById("b_text");
 var c = document.getElementById("c_text");
@@ -126,5 +126,5 @@ load()
 function submit() {
     index++;
     load()
-
+    
 }

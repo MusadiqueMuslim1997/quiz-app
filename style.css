@@ -4,23 +4,32 @@
     box-sizing: border-box;
 }
 
-body {
-   
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
 }
 
 .main {
     width: 100%;
-    height: 100vh;
+    margin-top: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0px;
-    
+    padding: 20px;
+    /* display: none; */
 }
 
 .box {
     width: 500px;
-   
     display: flex;
     align-items: center;
     background-color: azure;
@@ -29,38 +38,40 @@ body {
     border-radius: 10px;
     flex-wrap: wrap;
 }
-.header{
+
+.header {
     width: 100%;
-    margin-bottom: 40px;
     text-align: center;
     font-size: 2rem;
     color: gold;
     text-shadow: 2px 2px silver;
     font-family: sans-serif;
+
 }
-.que{
+
+.que {
     width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
-   
-    
+
+
 }
-.box .que h2{
+
+.box .que h2 {
     font-size: 1.2rem;
+
 }
+
 .opt {
     width: 100%;
-    
-    margin-top:40px;
+
+    margin-top: 40px;
 
 
 }
-li{
-    list-style: none;
- 
-    line-height: 40px;
-}
+
+
 .btn {
     width: 100%;
     display: flex;
@@ -81,31 +92,37 @@ button {
     font-weight: bolder;
     text-shadow: 1px 1px silver;
     cursor: pointer;
-   
+
 
 }
-button:active{
+
+button:active {
     background-color: darkgreen;
 }
-.opt:hover{
+
+.opt:hover {
     background-color: rgb(64, 161, 199);
 }
-label:hover{
+
+label:hover {
     color: white;
 }
 
-@media screen and (max-width:520px){
-    .box{
+@media screen and (max-width:520px) {
+    .box {
         width: 420px;
     }
 }
-@media screen and (max-width:450px){
-    .box{
+
+@media screen and (max-width:450px) {
+    .box {
         width: 380px;
     }
 }
-@media screen and (max-width:400px){
-    .box{
+
+@media screen and (max-width:400px) {
+    .box {
         width: 330px;
+
     }
 }
