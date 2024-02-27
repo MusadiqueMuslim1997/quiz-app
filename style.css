@@ -69,12 +69,6 @@ header {
     padding: 10px;
 }
 
-.pro-name:hover {
-    background-color: #25799b;
-    color: white;
-    transition: 1s;
-}
-
 .main {
     width: 100%;
     margin-top: 80px;
