@@ -11,11 +11,67 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
-    background-color: aliceblue;
+    padding: 20px 40px;
+    background-color: white;
     position: fixed;
     top: 0px;
     z-index: 1;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.drop {
+
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo>img {
+    width: 100%;
+}
+
+.pro-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+    background-color: antiquewhite;
+}
+
+.pro-img>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.pro-name {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.pro-name:hover {
+    background-color: #25799b;
+    color: white;
+    transition: 1s;
 }
 
 .main {
@@ -25,7 +81,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    /* display: none; */
+    display: none;
 }
 
 .box {
