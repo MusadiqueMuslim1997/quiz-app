@@ -303,8 +303,7 @@ button:active {
 @media screen and (max-width:400px) {
     .box {
         width: 330px;
-
-    }
+}
 
     header {
         padding: 20px;
