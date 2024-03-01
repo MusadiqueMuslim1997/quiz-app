@@ -272,3 +272,35 @@ function back() {
     courselist8.style.display = "none";
     courselist9.style.display = "none";
 }
+
+
+
+var keySec = document.getElementById("keySec");
+var quiz = document.getElementById("quiz");
+var pass = document.getElementById("pass");
+function startquiz(){
+    
+    if(pass.value == "123"){
+        quiz.style.display = "flex";
+        keySec.style.display = "none";
+    }
+    else if(pass.value == ""){
+         alert("Enter test key")
+    }
+    else{
+        alert("Invalid key")
+    }
+}
+
+function key(){
+    keySec.style.display = "flex";
+    courselist1.style.display = "none";
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
+}
