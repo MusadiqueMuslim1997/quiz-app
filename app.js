@@ -6,8 +6,8 @@ var quetionList = [
         a: "True",
         b: "False",
         c: "Both of the above",
-        d: "None of the above"
-
+        d: "None of the above",
+        ans: "false"
     }
     ,
     {
@@ -106,7 +106,7 @@ var b = document.getElementById("b_text");
 var c = document.getElementById("c_text");
 var d = document.getElementById("d_text");
 var index = 0;
-
+var score = 0;
 
 
 function load() {
@@ -130,6 +130,9 @@ function submit() {
     
         optName[i].checked = false;
     } 
+   
+
+
 }
 
 var hero = document.getElementById("hero")
