@@ -285,10 +285,10 @@ function startquiz(){
         keySec.style.display = "none";
     }
     else if(pass.value == ""){
-         alert("Enter test key")
+         alert("Enter test key 123")
     }
     else{
-        alert("Invalid key")
+        alert("Invalid key please enter 123")
     }
 }
 
