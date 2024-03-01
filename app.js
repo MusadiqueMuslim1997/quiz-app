@@ -122,9 +122,22 @@ function load() {
 
 load()
 
-   
+
 function submit() {
     index++;
     load()
-    
+
+}
+
+var hero = document.getElementById("hero")
+var courselist = document.getElementById("courselist")
+function join() {
+    hero.style.display = 'none';
+    courselist.style.display = "block";
+}
+
+var backs = document.getElementById("backs");
+function back() {
+    hero.style.display = 'block';
+    courselist.style.display = "none";
 }
