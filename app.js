@@ -130,14 +130,145 @@ function submit() {
 }
 
 var hero = document.getElementById("hero")
-var courselist = document.getElementById("courselist")
-function join() {
+var courselist1 = document.getElementById("courselist1")
+function join1() {
+    courselist1.style.display = "block";
     hero.style.display = 'none';
-    courselist.style.display = "block";
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
+   
+
 }
+
+var courselist2 = document.getElementById("courselist2")
+function join2() {
+    courselist1.style.display = "none";
+    hero.style.display = 'none';
+    courselist2.style.display = "block";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
+}
+
+var courselist3 = document.getElementById("courselist3")
+function join3() {
+    courselist1.style.display = "none";
+    hero.style.display = 'none';
+    courselist2.style.display = "none";
+    courselist3.style.display = "block";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
+}
+var courselist4 = document.getElementById("courselist4")
+function join4() {
+    courselist1.style.display = "none";
+    hero.style.display = 'none';
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "block";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
+}
+
+var courselist5 = document.getElementById("courselist5")
+function join5() {
+    courselist1.style.display = "none";
+    hero.style.display = 'none';
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "block";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
+}
+
+var courselist6 = document.getElementById("courselist6")
+function join6() {
+    courselist1.style.display = "none";
+    hero.style.display = 'none';
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "block";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
+}
+
+var courselist7 = document.getElementById("courselist7")
+function join7() {
+    courselist1.style.display = "none";
+    hero.style.display = 'none';
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "block";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
+}
+
+var courselist8 = document.getElementById("courselist8")
+function join8() {
+    courselist1.style.display = "none";
+    hero.style.display = 'none';
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "block";
+    courselist9.style.display = "none";
+}
+
+var courselist9 = document.getElementById("courselist9")
+function join9() {
+    courselist1.style.display = "none";
+    hero.style.display = 'none';
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "block";
+}
+
+
 
 var backs = document.getElementById("backs");
 function back() {
     hero.style.display = 'block';
-    courselist.style.display = "none";
+    courselist1.style.display = "none";
+    courselist2.style.display = "none";
+    courselist3.style.display = "none";
+    courselist4.style.display = "none";
+    courselist5.style.display = "none";
+    courselist6.style.display = "none";
+    courselist7.style.display = "none";
+    courselist8.style.display = "none";
+    courselist9.style.display = "none";
 }

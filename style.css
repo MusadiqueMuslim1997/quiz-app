@@ -348,11 +348,13 @@ label:hover {
 }
 
 .sub {
-    font-size: 1.2rem;
+    text-align: center;
+    font-size: 1rem;
 }
 
 .courseList {
     width: 100%;
+    margin-top: 30px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     display: flex;
@@ -391,4 +393,14 @@ label:hover {
 .back {
     width: 150px;
     background-color: #63b3d8;
+}
+@media screen and (max-width:450px) {
+    .hi-join-1 {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .course{
+        height: 40px;
+        font-size: 1.2rem;
+    }
 }
