@@ -279,13 +279,6 @@ button:active {
     background-color: #358bb3;
 }
 
-.opt:hover {
-    background-color: rgb(64, 161, 199);
-}
-
-label:hover {
-    color: white;
-}
 
 @media screen and (max-width:520px) {
     .box {
