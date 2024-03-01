@@ -12,20 +12,20 @@ var quetionList = [
     ,
     {
 
-        que: "2. Which of the following is the correct syntax to print a page using JavaScript?",
-        a: "Using typeof operator",
-        b: "Using getType function",
-        c: "Both of the above",
-        d: "None of the above"
+        que: "2. Inside which HTML element do we put the JavaScript?",
+        a: "scripting",
+        b: "javascript",
+        c: "script",
+        d: "js"
 
     },
 
     {
 
-        que: "3. Which of the following type of variable takes precedence over other if names are same?",
-        a: "Global variable",
-        b: "Local variable",
-        c: "Both of the above",
+        que: "3. JavaScript File Has An Extension of:",
+        a: ".js",
+        b: ".java",
+        c: ".javascript",
         d: "None of the above"
 
     },
@@ -120,13 +120,16 @@ function load() {
 
 }
 
+
 load()
-
-
 function submit() {
     index++;
     load()
-
+    var optName = document.getElementsByName("option");
+    for (var i = 0; i < optName.length; i++){
+    
+        optName[i].checked = false;
+    } 
 }
 
 var hero = document.getElementById("hero")
@@ -142,7 +145,7 @@ function join1() {
     courselist7.style.display = "none";
     courselist8.style.display = "none";
     courselist9.style.display = "none";
-   
+
 
 }
 
@@ -278,21 +281,21 @@ function back() {
 var keySec = document.getElementById("keySec");
 var quiz = document.getElementById("quiz");
 var pass = document.getElementById("pass");
-function startquiz(){
-    
-    if(pass.value == "123"){
+function startquiz() {
+
+    if (pass.value == "123") {
         quiz.style.display = "flex";
         keySec.style.display = "none";
     }
-    else if(pass.value == ""){
-         alert("Enter test key 123")
+    else if (pass.value == "") {
+        alert("Enter test key 123")
     }
-    else{
+    else {
         alert("Invalid key please enter 123")
     }
 }
 
-function key(){
+function key() {
     keySec.style.display = "flex";
     courselist1.style.display = "none";
     courselist2.style.display = "none";
