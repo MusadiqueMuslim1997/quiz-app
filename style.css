@@ -80,7 +80,7 @@ header {
     flex-wrap: wrap;
     padding: 40px;
     gap: 20px;
-    /* display: none; */
+    display: none;
 }
 
 .hi {
@@ -196,14 +196,14 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    display: none;
+    /* display: none; */
 }
 
 .box {
     width: 500px;
     display: flex;
     align-items: center;
-    background-color: azure;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 20px;
     border-radius: 10px;
@@ -214,7 +214,7 @@ header {
     width: 100%;
     text-align: center;
     font-size: 2rem;
-    color: gold;
+    color: #63b3d8;
     text-shadow: 2px 2px silver;
     font-family: sans-serif;
 
@@ -252,12 +252,12 @@ header {
 
 }
 
-button {
+.btns {
     width: 100%;
     height: 30px;
     text-align: center;
     border: none;
-    background-color: gold;
+    background-color: #63b3d8;
     color: white;
     font-size: 1rem;
     font-weight: bolder;
@@ -268,7 +268,7 @@ button {
 }
 
 button:active {
-    background-color: darkgreen;
+    background-color: #358bb3;
 }
 
 .opt:hover {
@@ -460,7 +460,4 @@ label:hover {
 .key-submit{
     width: 120px;
     background-color: #63b3d8;
-}
-.key-submit:active{
-    background-color: #3e96be;
 }
