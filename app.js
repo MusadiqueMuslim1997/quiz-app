@@ -16,8 +16,8 @@ var quetionList = [
         a: "scripting",
         b: "javascript",
         c: "script",
-        d: "js"
-
+        d: "js",
+        ans: "script"
     },
 
     {
@@ -26,7 +26,8 @@ var quetionList = [
         a: ".js",
         b: ".java",
         c: ".javascript",
-        d: "None of the above"
+        d: "None of the above",
+        ans: ".js"
 
     },
     {
@@ -35,7 +36,8 @@ var quetionList = [
         a: "substr()",
         b: "getSubstring()",
         c: "slice()",
-        d: "None of the above"
+        d: "None of the above",
+        ans: "slice()"
 
     },
 
@@ -45,7 +47,8 @@ var quetionList = [
         a: "toString()",
         b: "toFixed()",
         c: "toLocaleString()",
-        d: "toPrecision()"
+        d: "toPrecision()",
+        ans: "toFixed()"
 
     },
     {
@@ -54,7 +57,8 @@ var quetionList = [
         a: "slice()",
         b: "split()",
         c: "replace()",
-        d: "search()"
+        d: "search()",
+        ans: "split()"
 
     },
     {
@@ -63,7 +67,8 @@ var quetionList = [
         a: "anchor()",
         b: "link()",
         c: "blink()",
-        d: "big()"
+        d: "big()",
+        ans: "blink()"
 
     },
     {
@@ -72,7 +77,8 @@ var quetionList = [
         a: "sup()",
         b: "small()",
         c: "strike()",
-        d: "sub()"
+        d: "sub()",
+        ans: "sup()"
 
     },
     {
@@ -81,7 +87,8 @@ var quetionList = [
         a: "indexOf()",
         b: "join()",
         c: "lastIndexOf()",
-        d: "map()"
+        d: "map()",
+        ans: "indexOf()"
 
     },
     {
@@ -90,7 +97,8 @@ var quetionList = [
         a: "toSource()",
         b: "sort()",
         c: "toString()",
-        d: "unshift()"
+        d: "unshift()",
+        ans: "sort()"
 
     },
 
@@ -120,20 +128,26 @@ function load() {
 
 }
 
+var optName = document.getElementsByName("option");
+
 
 load()
 function submit() {
     index++;
     load()
-    var optName = document.getElementsByName("option");
-    for (var i = 0; i < optName.length; i++){
-    
+
+    for (var i = 0; i < optName.length; i++) {
+
         optName[i].checked = false;
-    } 
-   
+
+    }
+
+
 
 
 }
+
+
 
 var hero = document.getElementById("hero")
 var courselist1 = document.getElementById("courselist1")
